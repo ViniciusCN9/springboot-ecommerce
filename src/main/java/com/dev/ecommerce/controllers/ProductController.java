@@ -21,7 +21,7 @@ import com.dev.ecommerce.services.ProductService;
 
 @Controller
 @RequestMapping("/v1/products")
-public class ProductsController {
+public class ProductController {
 
     @Autowired
     private ProductService productService;

@@ -71,7 +71,6 @@ public class ProductRepositoryTest {
     }
 
     @Test
-    @Order(4)
     public void should_delete_product() {
         Product productD = new Product();
         productD.setName("ProductE");
